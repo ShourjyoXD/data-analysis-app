@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from data_cleaning import load_data, clean_data
-from data_analysis import visualize_data
+from data_analysis import visualize_data  
 
 st.title("📊 Basic Data Analysis with Pandas & Matplotlib")
 st.write("Analyze your data effortlessly with this interactive app!")
