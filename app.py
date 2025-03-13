@@ -6,14 +6,6 @@ import seaborn as sns
 
 st.title("Basic Data Analysis with Pandas & Matplotlib")
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-
-st.title("Basic Data Analysis with Pandas & Matplotlib")
-
 
 @st.cache_data
 def load_data():
